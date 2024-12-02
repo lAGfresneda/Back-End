@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "singularName": "cliente",
+    "pluralName": "clientes",
+    "displayName": "Cliente",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "docCliente": {
+      "type": "string",
+      "required": true
+    },
+    "nomCliente": {
+      "type": "string",
+      "required": true
+    },
+    "emaCliente": {
+      "type": "string",
+      "required": true
+    },
+    "celCliente": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

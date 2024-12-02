@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vehiculos",
+  "info": {
+    "singularName": "vehiculo",
+    "pluralName": "vehiculos",
+    "displayName": "Vehiculo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plaVehiculo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

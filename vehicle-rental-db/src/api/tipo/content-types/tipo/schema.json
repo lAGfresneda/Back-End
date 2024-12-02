@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipos",
+  "info": {
+    "singularName": "tipo",
+    "pluralName": "tipos",
+    "displayName": "Tipo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "desCorTipo": {
+      "type": "string",
+      "required": true
+    },
+    "desAmpTipo": {
+      "type": "string",
+      "required": true
+    },
+    "preAlqTipo": {
+      "type": "decimal"
+    }
+  }
+}

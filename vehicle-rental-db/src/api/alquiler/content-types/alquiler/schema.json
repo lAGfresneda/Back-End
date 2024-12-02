@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alquilers",
+  "info": {
+    "singularName": "alquiler",
+    "pluralName": "alquilers",
+    "displayName": "Alquiler",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "valAlquiler": {
+      "type": "decimal",
+      "required": true
+    },
+    "fecIniAlquiler": {
+      "type": "date",
+      "required": true
+    },
+    "fecEntAlquiler": {
+      "type": "date",
+      "required": true
+    },
+    "fecFinAlquiler": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

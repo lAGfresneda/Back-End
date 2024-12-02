@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empleados",
+  "info": {
+    "singularName": "empleado",
+    "pluralName": "empleados",
+    "displayName": "Empleado",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomEmpleado": {
+      "type": "string",
+      "required": true
+    },
+    "emaEmpleado": {
+      "type": "string",
+      "required": true
+    },
+    "celEmpleado": {
+      "type": "string",
+      "required": true
+    },
+    "usuEmpleado": {
+      "type": "string",
+      "required": true
+    },
+    "conEmpleado": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
